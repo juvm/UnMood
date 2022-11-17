@@ -8,19 +8,18 @@
 </head>
 <body>
     <div class="login-wrapper">
-        <form action="" method="post" name="login">
+        <form action="" method="POST" id="login">
             <h2>Login</h2>
             <div class="text-field">
-                <input type="text" name="email-username" id="email-username" required/>
+                <input type="text" name="username" id="username" required/>
                 <br>
-                <input type="password" name="loginpassword" id="loginpassword" minlength="6" required/>
+                <input type="password" name="password" id="password" minlength="6" required/>
                 <br>
                 <input type="checkbox" id="save-details">
                 <label for="save-details">Keep me signed in?</label>
                 <br>
-                <input type="submit" class="login-btn" value="Login">
+                <input type="submit" id="login-btn" value="Login">
             </div>
-
         </form>
     </div>
     
